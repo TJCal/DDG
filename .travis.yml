@@ -4,4 +4,5 @@ python:
  - "nightly"
 install:
  - "pip install pytest"
+ - "pip install requests"
 script: python -m pytest Test_DDG
